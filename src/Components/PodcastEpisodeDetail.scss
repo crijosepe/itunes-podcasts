@@ -1,0 +1,21 @@
+@import '../styles/colors';
+
+.episode-detail-container {
+    width: 70%;
+    display: inline-block;
+    position: absolute;
+    margin-left: 40px;
+    margin-bottom: 20px;
+    padding: 10px;
+
+    .title {
+        font-size: 22px;
+        margin-bottom: 20px;
+    }
+
+    audio {
+        border-top: 1px solid $light-grey;
+        width: 100%;
+        padding-top: 10px;
+    }
+}

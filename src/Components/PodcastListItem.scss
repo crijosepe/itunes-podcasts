@@ -1,0 +1,29 @@
+@import '../styles/colors';
+@import '../styles/globals';
+
+.list-item-container {
+    width: 250px;
+    min-height: 150px;
+    display: inline-block;
+    vertical-align: top;
+    margin: 50px 40px;
+    text-align: center;
+    cursor: pointer;
+
+    .image-container img{
+        margin-top: -50px;
+        height: 100px;
+        width: 100px;
+        border-radius: 50%;
+    }
+
+    .title {
+        text-transform: uppercase;
+    }
+
+    .author {
+        color: $dark-grey;
+        margin-top: 15px;
+        margin-bottom: 10px;
+    }
+}
